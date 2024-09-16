@@ -5,11 +5,7 @@ Tento projekt sa zaoberá binárnou klasifikáciou predajných výkonov na zákl
 
 ## Súbory v projekte
 - `sales_data.csv`: Dataset obsahujúci údaje o predajoch.
-- `model.py`: Obsahuje definície tried a funkcií pre model neurónovej siete a predikcie.
-- `generate_data.py`: Skript na generovanie náhodných dát na testovanie modelu.
-- `train.py`: Skript na trénovanie a validáciu modelu.
-- `predict.py`: Skript na vykonávanie predikcií na nových dátach.
-- `plot_results.py`: Skript na vizualizáciu výsledkov tréningu.
+- `sales_performance.ipynb`: Obsahuje definície tried a funkcií pre model neurónovej siete a predikcie.
 
 ## Inštalácia
 Pred spustením projektu sa uistite, že máte nainštalované všetky potrebné knižnice. Môžete to urobiť pomocou `pip`:
