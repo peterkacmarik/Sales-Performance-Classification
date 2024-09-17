@@ -13,6 +13,16 @@ Pred spustením projektu sa uistite, že máte nainštalované všetky potrebné
 ```bash
 pip install numpy pandas scikit-learn torch matplotlib
 ```
+### Použitie
+Ak chcete spustiť model na vlastných dátach, postupujte podľa nasledujúcich krokov:
+1. Načítajte dátový súbor `sales_data.csv` do koreňového adresára.
+2. Spustite skript jupyter notebook `sales_performance.ipynb`:
+
 ## Ďalšie informácie
-Model: Používa sa model neurónovej siete s tromi skrytými vrstvami, Batch Normalization a Dropout.
-Štruktúra dát: Dátový súbor obsahuje rôzne charakteristiky zákazníkov a produktov, ktoré sa používajú na trénovanie a testovanie modelu.
+- Model: Používa sa model neurónovej siete s tromi skrytými vrstvami, Batch Normalization a Dropout.
+- Štruktúra dát: Dátový súbor obsahuje rôzne charakteristiky zákazníkov a produktov, ktoré sa používajú na trénovanie a testovanie modelu.
+- 
+### Licencia
+Tento projekt je licencovaný pod MIT licenciou.
+### Zdroje
+- [PyTorch dokumentácia](https://pytorch.org/docs/)
